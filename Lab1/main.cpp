@@ -6,15 +6,14 @@
 
 int main()
 {
-    SetConsoleOutputCP(1251);
-    SetConsoleCP(1251);
+    /*SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);*/
     using namespace std;
-
-    /*for (int i = firstUpperLetterIndex; i <= lastLowerLetterIndex; i++)
-    {
-        wcout << i << ": " << (wchar_t)i << '\n';
-    }*/
-
+    //auto alphabet = getAlphabet();
+    //for (auto s : alphabet)
+    //{
+    //    wcout << s << '\n';
+    //}
     vector<wstring> inputVector;
     wstring inputString, result;
     wifstream inputStream;

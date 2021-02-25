@@ -4,7 +4,7 @@ void decryptLine(std::wstring& line)
 {
     for (int i = 0; i < line.length(); i++)
     {
-        line[i] += offset;
+        line[i] -= offset;
     }
 }
 
