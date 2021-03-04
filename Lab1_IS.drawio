@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T06:51:54.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.4" etag="Q_l2biTtp4rtwOtCY5XX" type="github"><diagram id="YppxPCt-tS6I3Fdft4-J">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T07:10:02.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="nww1g6YfrIJrHzpJmkcD" version="14.4.4" type="github">
+  <diagram id="YppxPCt-tS6I3Fdft4-J" name="Page-1">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-1" target="IQWBVyjdk1LrEPWwyMu2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-1" value="Encryptor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-2" value="encryptTextInVector(vector): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IQWBVyjdk1LrEPWwyMu2-1">
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-3" value="encryptLine(string): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IQWBVyjdk1LrEPWwyMu2-1">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-12" value="offset = 9" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="IQWBVyjdk1LrEPWwyMu2-1">
+          <mxGeometry y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-3" target="IQWBVyjdk1LrEPWwyMu2-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="332.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="334" />
+              <mxPoint x="580" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-6" value="&lt;span&gt;void encryptLine(line: string)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;for (int i = 0; i &amp;lt; line.length(); i++)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; line[i] += offset;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/span&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="210" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-13" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.153;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;dashed=1;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-2" target="IQWBVyjdk1LrEPWwyMu2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-15" value="creates" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-16" value="result.txt" style="html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-17" target="IQWBVyjdk1LrEPWwyMu2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-17" value="Decryptor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="338.75" y="530" width="192.5" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-18" value="decryptTextInVector(vector): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IQWBVyjdk1LrEPWwyMu2-17">
+          <mxGeometry y="26" width="192.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-19" value="decryptLine(string): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IQWBVyjdk1LrEPWwyMu2-17">
+          <mxGeometry y="52" width="192.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-20" value="offset = 9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IQWBVyjdk1LrEPWwyMu2-17">
+          <mxGeometry y="78" width="192.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-22" value="consumes" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="504" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;shape=link;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-25" value="&lt;span&gt;void decryptLine(line: string)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;for (int i = 0; i &amp;lt; line.length(); i++)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; line[i] -= offset;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/span&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="550" width="210" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;dashed=1;" edge="1" parent="1" source="IQWBVyjdk1LrEPWwyMu2-18" target="IQWBVyjdk1LrEPWwyMu2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="694" as="targetPoint" />
+            <mxPoint x="435" y="634" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-28" value="creates" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="634" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-29" value="decrypted.txt" style="html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="694" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQWBVyjdk1LrEPWwyMu2-30" value="input.txt" style="html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
